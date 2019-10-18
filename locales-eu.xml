@@ -10,8 +10,8 @@
   <style-options punctuation-in-quote="false"/>
   <date form="text">
     <date-part name="year" suffix="(e)ko "/>
-    <date-part name="month" suffix="aren "/>
-    <date-part name="day" suffix="a"/>
+    <date-part name="month" suffix=" "/>
+    <date-part name="day" suffix=""/>
   </date>
   <date form="numeric">
     <date-part name="year" suffix="/"/>
@@ -25,14 +25,14 @@
     <term name="anonymous">ezezaguna</term>
     <term name="anonymous" form="short">ezez.</term>
     <term name="at">-(e)n</term>
-    <term name="available at">available at</term>
+    <term name="available at">eskuragarri:</term>
     <term name="by">-(e)k egina</term>
     <term name="circa">inguru</term>
     <term name="circa" form="short">ing.</term>
     <term name="cited">aipatua</term>
     <term name="edition">
-      <single>argitalpena</single>
-      <multiple>argitalpenak</multiple>
+      <single>argitaraldia</single>
+      <multiple>argitaraldiak</multiple>
     </term>
     <term name="edition" form="short">arg.</term>
     <term name="et-al">et al.</term>
@@ -57,18 +57,18 @@
       <multiple>aip.</multiple>
     </term>
     <term name="retrieved">berreskuratua</term>
-    <term name="scale">scale</term>
-    <term name="version">version</term>
+    <term name="scale">eskala</term>
+    <term name="version">bertsioa</term>
 
     <!-- ANNO DOMINI; BEFORE CHRIST -->
     <term name="ad">K.a.</term>
     <term name="bc">K.o.</term>
 
     <!-- PUNCTUATION -->
-    <term name="open-quote">«</term>
-    <term name="close-quote">»</term>
-    <term name="open-inner-quote">“</term>
-    <term name="close-inner-quote">”</term>
+    <term name="open-quote">“</term>
+    <term name="close-quote">”</term>
+    <term name="open-inner-quote">'</term>
+    <term name="close-inner-quote">'</term>
     <term name="page-range-delimiter">–</term>
 
     <!-- ORDINALS -->
@@ -128,8 +128,8 @@
       <multiple>orrialdeak</multiple>
     </term>
     <term name="number-of-pages">
-      <single>orrialdea</single>
-      <multiple>orrialdeak</multiple>
+      <single>orrialde</single>
+      <multiple>orrialde</multiple>
     </term>
     <term name="paragraph">
       <single>paragrafoa</single>
@@ -152,7 +152,7 @@
       <multiple>bertsoak</multiple>
     </term>
     <term name="volume">
-      <single>luburikia</single>
+      <single>luburukia</single>
       <multiple>luburukiak</multiple>
     </term>
 
@@ -183,7 +183,7 @@
     </term>
     <term name="verse" form="short">
       <single>b.</single>
-      <multiple>bb.</multiple>
+      <multiple>b.</multiple>
     </term>
     <term name="volume" form="short">
       <single>libk.</single>
@@ -202,8 +202,8 @@
 
     <!-- LONG ROLE FORMS -->
     <term name="director">
-      <single>director</single>
-      <multiple>directors</multiple>
+      <single>zuzendaria</single>
+      <multiple>zuzendariak</multiple>
     </term>
     <term name="editor">
       <single>argitaratzailea</single>
@@ -214,8 +214,8 @@
       <multiple>argitaratzaileak</multiple>
     </term>
     <term name="illustrator">
-      <single>illustrator</single>
-      <multiple>illustrators</multiple>
+      <single>ilustratzailea</single>
+      <multiple>ilustratzaileak</multiple>
     </term>
     <term name="translator">
       <single>itzultzailea</single>
@@ -228,8 +228,8 @@
 
     <!-- SHORT ROLE FORMS -->
     <term name="director" form="short">
-      <single>dir.</single>
-      <multiple>dirs.</multiple>
+      <single>zuz.</single>
+      <multiple>zuz.</multiple>
     </term>
     <term name="editor" form="short">
       <single>arg.</single>
@@ -240,8 +240,8 @@
       <multiple>arg.</multiple>
     </term>
     <term name="illustrator" form="short">
-      <single>ill.</single>
-      <multiple>ills.</multiple>
+      <single>ilu.</single>
+      <multiple>ilu.</multiple>
     </term>
     <term name="translator" form="short">
       <single>itzul.</single>
@@ -254,10 +254,10 @@
 
     <!-- VERB ROLE FORMS -->
     <term name="container-author" form="verb"></term>
-    <term name="director" form="verb">directed by</term>
+    <term name="director" form="verb">-(e)k zuzendua</term>
     <term name="editor" form="verb">-(e)k argitaratua</term>
     <term name="editorial-director" form="verb">-(e)k argitaratua</term>
-    <term name="illustrator" form="verb">illustrated by</term>
+    <term name="illustrator" form="verb">-(e)k ilustratua</term>
     <term name="interviewer" form="verb">-(e)k elkarrizketatua</term>
     <term name="recipient" form="verb">-(r)entzat</term>
     <term name="reviewed-author" form="verb">by</term>
@@ -268,7 +268,7 @@
     <term name="director" form="verb-short">dir.</term>
     <term name="editor" form="verb-short">arg.</term>
     <term name="editorial-director" form="verb-short">arg.</term>
-    <term name="illustrator" form="verb-short">illus.</term>
+    <term name="illustrator" form="verb-short">ilus.</term>
     <term name="translator" form="verb-short">itzul.</term>
     <term name="editortranslator" form="verb-short">-(e)k arg. eta itzul.</term>
 
@@ -289,7 +289,7 @@
     <!-- SHORT MONTH FORMS -->
     <term name="month-01" form="short">urt.</term>
     <term name="month-02" form="short">ots.</term>
-    <term name="month-03" form="short">martx.</term>
+    <term name="month-03" form="short">mar.</term>
     <term name="month-04" form="short">apr.</term>
     <term name="month-05" form="short">mai.</term>
     <term name="month-06" form="short">eka.</term>
